@@ -1,0 +1,187 @@
+html, body{
+
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+header{
+
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+header h1{
+
+     float: left;
+     padding: 20px 220px;
+    font-size: 35px;
+    color: #444;
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+
+
+header span{
+    color: orangered;
+}
+
+header nav ul {
+
+    float: right;
+    padding: 35px 10px;
+    margin-right: 50px;
+
+
+}
+
+header nav ul li{
+
+    display: inline-block;
+    margin-left: 20px;
+
+
+}
+
+
+header nav ul li a{
+
+    text-decoration: none;
+    color: #444;
+    font-size: 20px;
+}
+
+div.image-contact
+{
+
+
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+
+
+h1.h1-2{
+
+    color: #F9671E;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer{
+
+    display: table-row;
+    height: 1px;
+    width: 100px;
+    background-color: #444;
+
+}
+
+footer h1{
+
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+
+
+
+}
+
+footer span{
+
+    color: orangered;
+}
+
+footer p{
+
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+img.img-logo{
+
+    margin-left: 35px;
+
+}
+
+img.img-logo{
+
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+div.container{
+
+    height: auto;
+
+}
+
+
+#diaporama figure{
+
+    position: relative;
+    width: 500%;
+    margin-top: 50px;
+}
+
+#diaporama figure img{
+
+    width: 20%;
+    float: left;
+   animation: 20s sliderleft infinite;
+}
+
+#diaporama{
+
+    max-width: 1000px;;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+@keyframes sliderleft{
+
+
+    0%{
+        transform: translateX(0);
+    }
+
+    33%{
+
+        transform: translateX(-1000px)
+
+    }
+
+    66%{
+
+        transform: translateX(-2000px)
+
+    }
+
+    100%{
+
+        transform: translateX(0px)
+
+    }
+}

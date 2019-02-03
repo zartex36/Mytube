@@ -1,0 +1,105 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    
+    
+    
+    height: 100px;
+    width: 100%;
+}
+
+header h1{
+    
+     float: left;
+     padding: 20px 220px;
+    font-size: 35px;
+    color: #444;
+    font-family: 'Abril Fatface', cursive;
+
+    
+}
+
+
+header span{
+    color: orangered;
+}
+
+header nav ul {
+    
+    float: right;
+    padding: 35px 10px;
+    margin-right: 50px;
+
+    
+}
+
+header nav ul li{
+    
+    display: inline-block;
+    margin-left: 20px;
+  
+
+}
+
+
+header nav ul li a{
+    
+    text-decoration: none;
+    color: #444;
+    font-size: 20px;
+}
+
+
+#diaporama figure{
+    
+    position: relative;
+    width: 500%;
+    margin-top: 50px;
+}
+
+#diaporama figure img{
+    
+    width: 20%;
+    float: left;
+   animation: 20s sliderleft infinite;
+}
+
+#diaporama{
+    
+    max-width: 1000px;;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+@keyframes sliderleft{
+    
+    
+    0%{
+        transform: translateX(0);
+    }
+    
+    33%{
+        
+        transform: translateX(-1000px)
+        
+    }
+    
+    66%{
+        
+        transform: translateX(-2000px)
+        
+    }
+    
+    100%{
+        
+        transform: translateX(0px)
+        
+    }
+}
