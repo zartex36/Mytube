@@ -158,6 +158,12 @@ div.article1 img.img-1{
     padding-top: 0px;
 }
 
+div.article1 img.img-1:hover{
+
+  opacity: 0.6;
+
+
+}
 
 
 div.article1 h2.h2-1{
@@ -177,4 +183,15 @@ p.dateheure{
 
   color: black;
   opacity: 0.5;
+}
+
+a.a-h2{
+  text-decoration: none;
+  color: black;
+}
+
+h2.h2-1:hover{
+
+border-bottom: 1px black solid;
+
 }
